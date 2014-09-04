@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BussinessLayer\Entities\SapR3.cs" />
+    <Compile Include="BussinessLayer\SAPConnector.cs" />
     <Compile Include="DataAccess\SAPSystemConnect.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
