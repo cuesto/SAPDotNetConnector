@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interfaz_Ivend_SAP.DataAccess
+namespace SAPDotNetConnector.DataAccess
 {
     class SAPSystemConnect : IDestinationConfiguration
     {

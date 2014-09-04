@@ -35,6 +35,10 @@
     <Reference Include="sapnco">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SAP\SAP_DotNetConnector3_x64\sapnco.dll</HintPath>
     </Reference>
+    <Reference Include="sapnco_utils, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\SAP\SAP_DotNetConnector3_x64\sapnco_utils.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BussinessLayer\Entities\SapR3.cs" />
     <Compile Include="DataAccess\SAPSystemConnect.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
