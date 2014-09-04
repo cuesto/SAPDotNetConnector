@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SAPDotNetConnector.Business_Layer;
 
 namespace SAPDotNetConnector
 {
@@ -10,6 +11,9 @@ namespace SAPDotNetConnector
     {
         static void Main(string[] args)
         {
+            SAPConnector sap = new SAPConnector();
+            sap.ReadFromSAP();
+            sap.WriteToSAP();
         }
     }
 }
